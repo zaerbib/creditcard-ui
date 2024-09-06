@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "ede8e37e-cb30-416a-b333-836177ad1d9b"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -73,6 +76,9 @@
             "development": {
               "browserTarget": "creditcard-ui:build:development"
             }
+          },
+          "options": {
+            "proxyConfig": "proxy-dev.conf.json"
           },
           "defaultConfiguration": "development"
         },
